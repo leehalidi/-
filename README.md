@@ -1,9 +1,7 @@
-# -
 Windows10下如何在断网后自动连接校园网
 =
-
-`Requirements:`
-
+Requirements:
+-
 	python==3.6
 	selenium==2.48.0	
 	pywin32==300
@@ -12,8 +10,8 @@ Windows10下如何在断网后自动连接校园网
 	# e.g. 我的程序运行的环境名为“tf", python.exe的路径是：D:\Softwares\Anaconda\envs\tf， 则将下载的chromedriver.exe放到此路径的文件夹内
 	# 下载地址 http://chromedriver.storage.googleapis.com/index.html 下载的版本和所使用的谷歌浏览器的版本一致
 
-`Usage:`
-
+Usage:
+-
 	1） 修改以上程序中的一些参数，比如：账号、密码、日志保存位置（必需）； 休眠时间等（可选）
 	2） win+R 输入cmd 打开cmd.exe
 	3） 命令行输入以下命令：
