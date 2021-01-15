@@ -2,6 +2,7 @@
 Windows10下如何在断网后自动连接校园网
 
 Requirements:
+
 	python==3.6
 	selenium==2.48.0	
 	pywin32==300
@@ -10,6 +11,7 @@ Requirements:
 	# 下载地址 http://chromedriver.storage.googleapis.com/index.html 下载的版本和所使用的谷歌浏览器的版本一致
 
 Usage:
+
 	1） 修改以上程序中的一些参数，比如：账号、密码、日志保存位置（必需）； 休眠时间等（可选）
 	2） win+R 输入cmd 打开cmd.exe
 	3） 命令行输入以下命令：
