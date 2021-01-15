@@ -65,9 +65,9 @@ def output_log(text, path):
 
 if __name__ == '__main__':
     # modify the parameters here --------------------------------------------
-    url = "https://drcom.szu.edu.cn/a70.htm"
-    account = ""
-    password = ""
+    url = "https:/*********"  # 登录校园网的网址
+    account = "********"  
+    password = "**********"
     log_path = "C:\\Users\\dell\\Desktop\\SZUAutoLogin\\log.txt"  # 日志保存位置
     MaxReconnection = 10  # 最大重连次数
     short_time_sleep = 600  # 10分钟， 用于控制重连失败后的休眠时间
