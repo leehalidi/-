@@ -14,6 +14,8 @@ hd = win32gui.FindWindow(0, ct)
 win32gui.ShowWindow(hd, 0)  # 不可见窗口
 # 1111111
 print('OK')
+print('OK')
+
 
 class SzuLogin(object):
     def __init__(self, url, account, password):
